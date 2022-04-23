@@ -9,8 +9,17 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-     
-    Scanner in = new Scanner(System.in);
-    double height = in.nextDouble();
+    Scanner obj1 = new Scanner(System.in);
+    System.out.print("Weight (kg): ");
+    double weight = obj1.nextDouble();
+    System.out.println();
+
+    Scanner obj2 = new Scanner(System.in);
+    System.out.print("Height (m): ");
+    double height = obj2.nextDouble();
+    System.out.println();
+
+    double bmi = weight / (height * height);
+    System.out.println("Bmi: " + bmi);
   }
 }
