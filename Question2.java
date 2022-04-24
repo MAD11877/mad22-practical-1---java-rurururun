@@ -10,7 +10,6 @@ public class Question2
      * Hint: in.nextDouble() to read double
      */
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter weight(kg) and height(m):");
     
     double weight = in.nextDouble();
     double height = in.nextDouble();
