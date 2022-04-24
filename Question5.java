@@ -35,8 +35,7 @@ public class Question5
     ArrayList<Integer> data = new ArrayList<>();
     
     while(count < times) {
-      Scanner repeat = new Scanner(System.in);
-      int num = repeat.nextInt();
+      int num = start.nextInt();
       data.add(num);
       count++;
     }
